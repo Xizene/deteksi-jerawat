@@ -1,0 +1,11 @@
+backend.py
+requirements.txt
+train.py
+data.yaml
+__pycache__/
+venv/
+runs/
+test/
+train/
+valid/
+yolo11n.pt
