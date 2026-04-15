@@ -82,7 +82,7 @@ app.add_middleware(
 
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "runs", "detect", "train", "weights", "best.pt")
+model_path = os.path.join(BASE_DIR, "acne_model.pt")
 model = YOLO(model_path)
 
 def get_product_recommendations(detections):
