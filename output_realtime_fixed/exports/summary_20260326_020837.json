@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-03-26 02:08:37",
+  "model_path": "/Users/sucifaradilla/Downloads/deteksi jerawat-2/runs/detect/train/weights/best.pt",
+  "runtime_sec": 26.18,
+  "frame_index": 333,
+  "best_frame_total": 0,
+  "best_frame_path": "",
+  "all_time_counts": {
+    "papula": 0,
+    "pustula": 0,
+    "kistik": 0,
+    "0": 0
+  },
+  "current_counts": {
+    "papula": 0,
+    "pustula": 0,
+    "kistik": 0,
+    "0": 0
+  },
+  "final_confidence": 0.7,
+  "final_imgsz": 640,
+  "recording_final_state": false,
+  "model_class_map": {
+    "0": "0",
+    "1": "kistik",
+    "2": "papula",
+    "3": "pustula"
+  }
+}

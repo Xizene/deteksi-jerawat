@@ -1,0 +1,23 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# YOLO
+runs/
+
+# Others
+.DS_Store
+.env
+
+# Datasets
+train/
+test/
+valid/

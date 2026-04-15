@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', 'kistik', 'papula', 'pustula']
+
+roboflow:
+  workspace: sucis-workspace
+  project: deteksi-jerawat-llwyn
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sucis-workspace/deteksi-jerawat-llwyn/dataset/4
