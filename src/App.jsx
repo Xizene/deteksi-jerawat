@@ -54,8 +54,8 @@ const FEATURES = [
   },
 ];
 
-const API_BASE = "http://127.0.0.1:8000";
-const WS_BASE = "ws://127.0.0.1:8000/ws";
+const API_BASE = "https://xizene-api-jerawat.hf.space";
+const WS_BASE = "wss://xizene-api-jerawat.hf.space/ws";
 
 export default function App() {
   // ─── State ───────────────────────────────────────────────────────────
